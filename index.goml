@@ -1,0 +1,14 @@
+<goml>
+  <scene>
+    <!--Camera with mouse control-->
+    <camera>
+      <camera.components>
+        <MouseCameraControl/>
+      </camera.components>
+    </camera>
+    <!--Place gltf model in the scene-->
+    <model src="./BrainStem.glb" position="0,0,0"/>
+    <!--position="0,0,0" is default value. This value was specified explicitly for example.-->
+    <!--Default value of camera is replaced "0,0,20" so that we don't need to specify camera position to see.-->
+  </scene>
+</goml>
